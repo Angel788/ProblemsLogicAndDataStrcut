@@ -10,4 +10,4 @@ class Solution:
                 j=max(j,set_str[char_s]+1);
             set_str[char_s]=str_s;
             max_num=max(max_num,str_s-j+1);
-        return max;
+        return max_num;
