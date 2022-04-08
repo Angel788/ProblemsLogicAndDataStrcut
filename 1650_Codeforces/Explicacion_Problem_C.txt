@@ -1,0 +1,5 @@
+Primero se ingresasan los datos, hacemos un vector<class> por comodidad,
+despues los ordenamos para ver que datos van a entrar y si por lo menos existen 2*n elementos
+pues los recorremos 2*n elementos y los demas los eliminamos, lo cual si solo dejamos estos 
+estariamos minimizando, despues solo ordenamos con x y despues relacionamos el primer elemento con 
+el ultimo y sucesivamente.
