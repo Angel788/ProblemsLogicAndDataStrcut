@@ -2,6 +2,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 #define forn(i,n,e) for(int i=e;i<n;i++)
+#define fornpow2(i,n,e) for(int i=e;i*i<=n;i++)
+#define fornpow3(i,n,e) for(int i=e;i*i*i<=n;i++)
 #define ll long long
 #define fornll(i,n,e) for(ll i=e;i<n;i++)
 #define pii pair<int,int>
